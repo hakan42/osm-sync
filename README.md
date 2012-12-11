@@ -1,7 +1,7 @@
 osm-sync
 ========
 
-Automated Android Contact Synchronization with OpenStreerMap
+Automated Android Contact Synchronization with OpenStreetMap
 
 Why?
 ------
