@@ -1,0 +1,9 @@
+[main]
+host = https://www.transifex.com
+
+[osm-sync.osm-sync-strings]
+file_filter = osm-sync/res/values-<lang>/strings.xml
+source_file = osm-sync/res/values/strings.xml
+source_lang = en
+type = ANDROID
+
