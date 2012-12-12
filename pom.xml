@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.gurkensalat.android.commons</groupId>
+        <artifactId>android-commons-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.gurkensalat.android.xingsync</groupId>
+    <artifactId>osm-sync-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>osm-sync</name>
+
+    <inceptionYear>2012</inceptionYear>
+    <url>http://hakan42.github.com/osm-sync/</url>
+    <description>Automated Android Contact Synchronization with Geoaching.com</description>
+
+    <modules>
+        <!--
+        <module>osm-sync</module>
+        <module>osm-sync-example-data</module>
+        <module>osm-sync-it</module>
+        -->
+    </modules>
+
+    <properties>
+        <platform.version>4.0.1.2</platform.version>
+
+        <!-- The device setting must be defined in the developer settings -->
+        <!-- <android.device>emulator</android.device> -->
+    </properties>
+
+    <scm>
+        <url>https://github.com/hakan42/osm-sync</url>
+        <connection>scm:git:https://github.com/hakan42/osm-sync.git</connection>
+        <developerConnection>scm:git:https://github.com/hakan42/osm-sync.git</developerConnection>
+    </scm>
+
+    <issueManagement>
+        <system>Git</system>
+        <url>https://github.com/hakan42/osm-sync/issues</url>
+    </issueManagement>
+
+</project>
