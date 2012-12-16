@@ -15,3 +15,6 @@ License
 -------
 
 xing-sync is licenced under the [Apache 2.0 Licence](http://www.apache.org/licenses/LICENSE-2.0)
+
+Test
+-------
